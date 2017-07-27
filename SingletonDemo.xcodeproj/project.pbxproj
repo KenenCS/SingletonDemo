@@ -15,6 +15,7 @@
 		6C6A994B1F297A960030EA66 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6C6A99491F297A960030EA66 /* LaunchScreen.storyboard */; };
 		6C6A99561F297A960030EA66 /* SingletonDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C6A99551F297A960030EA66 /* SingletonDemoTests.m */; };
 		6C6A99611F297A960030EA66 /* SingletonDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C6A99601F297A960030EA66 /* SingletonDemoUITests.m */; };
+		6C6A99701F297AE60030EA66 /* Singleton.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C6A996F1F297AE60030EA66 /* Singleton.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		6C6A995C1F297A960030EA66 /* SingletonDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SingletonDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6C6A99601F297A960030EA66 /* SingletonDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SingletonDemoUITests.m; sourceTree = "<group>"; };
 		6C6A99621F297A960030EA66 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6C6A996E1F297AE60030EA66 /* Singleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Singleton.h; sourceTree = "<group>"; };
+		6C6A996F1F297AE60030EA66 /* Singleton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Singleton.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				6C6A993F1F297A960030EA66 /* AppDelegate.m */,
 				6C6A99411F297A960030EA66 /* ViewController.h */,
 				6C6A99421F297A960030EA66 /* ViewController.m */,
+				6C6A996E1F297AE60030EA66 /* Singleton.h */,
+				6C6A996F1F297AE60030EA66 /* Singleton.m */,
 				6C6A99441F297A960030EA66 /* Main.storyboard */,
 				6C6A99471F297A960030EA66 /* Assets.xcassets */,
 				6C6A99491F297A960030EA66 /* LaunchScreen.storyboard */,
@@ -274,6 +279,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6C6A99431F297A960030EA66 /* ViewController.m in Sources */,
+				6C6A99701F297AE60030EA66 /* Singleton.m in Sources */,
 				6C6A99401F297A960030EA66 /* AppDelegate.m in Sources */,
 				6C6A993D1F297A960030EA66 /* main.m in Sources */,
 			);
